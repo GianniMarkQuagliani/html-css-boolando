@@ -14,7 +14,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.d-flex{
+.row{
   display: flex;
 }
 
