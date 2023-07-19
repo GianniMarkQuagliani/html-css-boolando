@@ -18,6 +18,7 @@ body {
   display: flex;
 }
 
+/**/
 header .topbar {
   background-color: rgb(255, 104, 24);
   height: 80px;
@@ -44,6 +45,11 @@ header .topbar .container{
   text-decoration: none;
   font-weight: bold;
 }
+
+.logo img{
+  height: 30px;
+}
+/**/
 
 .container-main{
 	display: flex;
