@@ -101,3 +101,25 @@ header .topbar .container{
   display: block;
   opacity: 1;
 }
+
+.img-txt strong{
+  color: red;
+}
+
+.img-txt span{
+  text-decoration: line-through;
+}
+
+.discount{
+  width: 15%;
+  background-color: red;
+  left: 0;
+}
+.discount, .box-sostenibilità{
+  display: inline-block;
+  line-height: 26px;
+  font-weight: bold;
+  top: 85%;
+  text-align: center;
+
+}
