@@ -177,3 +177,9 @@ footer .row{
 .copyright li{
   padding: 0 5px;
 }
+
+.copyright {
+  width: 40%;
+  font-size: 22px;
+  padding: 30px 0;
+}
