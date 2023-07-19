@@ -167,3 +167,13 @@ footer .row{
   list-style: none;
   display: flex;
 }
+
+.copyright ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.copyright li{
+  padding: 0 5px;
+}
