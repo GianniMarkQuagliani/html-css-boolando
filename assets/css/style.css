@@ -107,7 +107,7 @@ header .topbar .container{
   position: relative;
 }
 
-.image1{
+.image1, .image2{
   width: 100%;
   height: 100%;
   object-fit: cover;
