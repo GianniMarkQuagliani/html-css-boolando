@@ -209,4 +209,9 @@ footer .row{
   text-align: right;
   padding: 30px 0;
 }
+
+.social a i{
+  margin: 10px 2px;
+  color: #fff;
+}
 /* /FOOTER  */
