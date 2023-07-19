@@ -24,3 +24,15 @@ header {
   right: 0;
   z-index: 100;
 }
+
+.nav-big ul{
+  list-style: none;
+  display: flex;
+}
+
+.nav-big ul li a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
