@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .d-flex{
   display: flex;
 }
@@ -26,11 +30,19 @@ header .topbar .container{
   height: 100%;
 }
 
-.menu a{
+.menu ul{
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li{
+  margin: 0 5px;
+}
+
+.menu ul li a{
   color: #fff;
   text-decoration: none;
-  margin-left: 15px;
-  font-size: 16px;
+  font-weight: bold;
 }
 
 .container-main{
