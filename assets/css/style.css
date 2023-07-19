@@ -143,4 +143,12 @@ header .topbar .container{
   width: 30%;
 }
 
+.hearts{
+  display: inline-block;
+  padding: 10px 10px;
+  top: 2%;
+  right: 0;
+  position: absolute;
+  background-color: #fff;
+}
 
