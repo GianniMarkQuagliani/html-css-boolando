@@ -158,3 +158,12 @@ footer{
   border-bottom: 1px solid white;
   color: #fff;
 }
+
+footer .row{
+  justify-content: space-between;
+}
+
+.copyright ul{
+  list-style: none;
+  display: flex;
+}
