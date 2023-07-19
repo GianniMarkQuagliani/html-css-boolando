@@ -10,41 +10,17 @@
   margin: 0 auto;
 }
 
-.d-flex{
+.row{
   display: flex;
 }
 
-header .topbar {
-  background-color: rgb(255, 104, 24);
-  height: 80px;
-  font-weight: 900;
-}
-
-header .topbar .container{
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
-.menu a{
-  color: #fff;
-  text-decoration: none;
-  margin-left: 15px;
-  font-size: 16px;
-}
-
-.container-main{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: start;
-	width: 80%;
-	max-width: 1000px;
-	margin: 40px auto;
-}
-
-.product{
-	position: relative;
-	margin: 0 2px;
-	cursor: pointer;
+header {
+  background-color: #ff6900;
+  color: white;
+  padding: 18px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
