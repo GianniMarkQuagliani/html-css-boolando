@@ -17,9 +17,13 @@ body {
 }
 
 .container{
-  width: 98%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+p{
+  font-size: 14px;
 }
 /* /GENERAL  */
 
@@ -28,6 +32,7 @@ header .topbar {
   background-color: rgb(255, 104, 24);
   height: 80px;
   font-weight: 900;
+  margin-bottom: 50px;
 }
 
 header .topbar .container{
@@ -152,11 +157,16 @@ header .topbar .container{
   background-color: #fff;
 }
 
+.box:hover{
+  color: red;
+}
+
 /* FOOTER  */
 footer{
   background-color: black;
   border-bottom: 1px solid white;
   color: #fff;
+  margin-top: 50px;
 }
 
 footer .row{
@@ -178,7 +188,7 @@ footer .row{
   padding: 0 5px;
 }
 
-.copyright {
+.copyright{
   width: 40%;
   font-size: 22px;
   padding: 30px 0;
