@@ -4,11 +4,47 @@
   box-sizing: 0;
 }
 
-.container-header{
+.container{
+  width: 98%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex{
   display: flex;
+}
+
+header .topbar {
+  background-color: rgb(255, 104, 24);
+  height: 80px;
+  font-weight: 900;
+}
+
+header .topbar .container{
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 104, 24);
+  height: 100%;
+}
+
+.menu a{
   color: #fff;
-  padding: 10px;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.container-main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: start;
+	width: 80%;
+	max-width: 1000px;
+	margin: 40px auto;
+}
+
+.product{
+	position: relative;
+	margin: 0 2px;
+	cursor: pointer;
 }
