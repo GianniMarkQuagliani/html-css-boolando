@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: 0;
 }
+
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 104, 24);
+  color: #fff;
+  padding: 10px;
+}
