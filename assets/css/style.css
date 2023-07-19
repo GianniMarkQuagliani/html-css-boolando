@@ -152,3 +152,9 @@ header .topbar .container{
   background-color: #fff;
 }
 
+/* FOOTER  */
+footer{
+  background-color: black;
+  border-bottom: 1px solid white;
+  color: #fff;
+}
