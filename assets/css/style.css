@@ -1,7 +1,19 @@
+/* RESET */
 *{
   margin: 0;
   padding: 0;
   box-sizing: 0;
+}
+
+/* TYPOGRAPHY */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* /TYPOGRAPHY  */
+
+/* GENERAL  */
+.row{
+  display: flex;
 }
 
 .container{
@@ -9,16 +21,9 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+/* /GENERAL  */
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.row{
-  display: flex;
-}
-
-/**/
+/* HEADER */
 header .topbar {
   background-color: rgb(255, 104, 24);
   height: 80px;
@@ -31,6 +36,7 @@ header .topbar .container{
   height: 100%;
 }
 
+/* MENU  */
 .menu ul{
   list-style: none;
   display: flex;
@@ -45,12 +51,26 @@ header .topbar .container{
   text-decoration: none;
   font-weight: bold;
 }
+/* /MENU  */
 
+/* MENU2  */
+.menu2 {
+  text-align: right;
+}
+.menu2 a i {
+  color: white;
+}
+/* /MENU2  */
+
+/* LOGO  */
 .logo img{
   height: 30px;
 }
-/**/
+/* /LOGO  */
 
+/* /HEADER */
+
+/* MAIN */
 .container-main{
 	display: flex;
 	flex-wrap: wrap;
