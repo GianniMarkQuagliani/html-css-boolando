@@ -168,6 +168,8 @@ header .topbar .container{
   color: red;
 }
 
+/* /MAIN  */
+
 /* FOOTER  */
 footer{
   background-color: black;
@@ -200,3 +202,5 @@ footer .row{
   font-size: 22px;
   padding: 30px 0;
 }
+
+/* /FOOTER  */
